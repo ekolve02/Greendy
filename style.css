@@ -3,6 +3,7 @@
 body {
     margin: 0;
     background-color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
 }
 
 p, h1, h2, h3, h4, h5, h6 {
@@ -10,8 +11,60 @@ p, h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
 /* header */
 
+header {
+    margin-top: 16px;
+}
 
+.header__container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header__logo {
+    width: 50%;
+}
+
+.header__logo-img {
+    width: 67px; 
+}
+
+.header__nav {
+    width: 40%;
+}
+
+.header__nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.header__nav a {
+    font-size: 16px;
+    transition: all 0.1s ease;
+}
+
+.header__nav a:hover {
+    color: #00B871;
+    border-bottom: 2px solid #00B871;
+    font-weight: 400;
+    padding-bottom: 22px;
+
+}
 
 /* end-header */
